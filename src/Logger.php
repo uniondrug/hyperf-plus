@@ -1,5 +1,5 @@
 <?php
-namespace Uniondrug\HttpClient;
+namespace Uniondrug\HyperfTools;
 
 class Logger
 {
