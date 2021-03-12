@@ -1,0 +1,24 @@
+{
+  "name": "uniondrug/http-tools",
+  "description": "hyperf Http client",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Uniondrug Dev Team",
+      "email": "dev@uniondrug.cn"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3|^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Uniondrug\\HttpClient\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
