@@ -1,5 +1,5 @@
 {
-  "name": "uniondrug/http-tools",
+  "name": "uniondrug/hyperf-tools",
   "description": "hyperf Http client",
   "license": "proprietary",
   "type": "library",
