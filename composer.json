@@ -1,21 +1,17 @@
 {
-  "name": "uniondrug/hyperf-tools",
-  "description": "hyperf Http client",
-  "license": "proprietary",
-  "type": "library",
-  "authors": [
+  "name" : "uniondrug/hyperf-tools",
+  "description" : "hyperf tools",
+  "license" : "MIT",
+  "type" : "library",
+  "authors" : [
     {
-      "name": "Uniondrug Dev Team",
-      "email": "dev@uniondrug.cn"
+      "name" : "huangyaxiong",
+      "email" : "coderhyx@163.com"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Uniondrug\\HttpClient\\": "src/"
+  "autoload" : {
+    "psr-4" : {
+      "Uniondrug\\HyperfTools\\" : "src/"
     }
-  },
-  "config": {
-    "preferred-install": "dist",
-    "sort-packages": true
   }
 }

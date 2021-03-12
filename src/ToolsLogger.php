@@ -1,11 +1,10 @@
 <?php
-namespace Uniondrug\HttpClient;
+namespace Uniondrug\HyperfTools;
 
-class Logger
+class ToolsLogger
 {
     public function info()
     {
         echo '>>>>>>>>>>union log...';
     }
-
 }
