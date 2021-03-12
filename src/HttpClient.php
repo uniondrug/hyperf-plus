@@ -3,26 +3,30 @@
  * @author wsfuyibing <websearch@163.com>
  * @date   2019-10-28
  */
-namespace Uniondrug\HttpClient;
+namespace Uniondrug\HyperfTools;
 
-use Phalcon\Di;
-use Phalcon\Logger\Adapter;
-use Psr\Http\Message\ResponseInterface;
-use Swoole\Http\Server;
-use Uniondrug\Framework\Container;
-use Uniondrug\Phar\Server\XHttp;
+use Hyperf\Di\Annotation\Inject;
+use Hyperf\Guzzle\ClientFactory;
+
 
 /**
  * Http请求包装
  * @package Uniondrug\HttpClient
  */
-class Client
+class HttpClient extends ClientFactory
 {
     const VERSION = '1.0.0';
     const SLOW_SECONDS = 0.5;
 
+    /**
+     * @Inject()
+     * @var ClientFactory
+     */
+    private  $httpClient;
+
     public function request()
     {
+//        echo 'djfafjdaskfasj';
         return 'aa';
     }
 }
