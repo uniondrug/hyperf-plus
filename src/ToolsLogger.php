@@ -5,6 +5,6 @@ class ToolsLogger
 {
     public function info()
     {
-        echo '>>>>>>>>>>union log...';
+        echo '>>>>>>>>>> log from hyper tools...'.PHP_EOL;
     }
 }

@@ -1,6 +1,6 @@
 {
-  "name" : "uniondrug/hyperf-tools",
-  "description" : "hyperf tools",
+  "name" : "uniondrug/hyperf-plus",
+  "description" : "hyperf 药联框架 扩展",
   "license" : "MIT",
   "type" : "library",
   "authors" : [
