@@ -1,5 +1,5 @@
 <?php
-namespace Uniondrug\HyperfPlus;
+namespace Uniondrug\HyperfTools;
 use Hyperf\HttpServer\Request;
 use Hyperf\Redis\Redis;
 use Hyperf\Utils\Context;

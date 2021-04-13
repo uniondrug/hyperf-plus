@@ -1,5 +1,5 @@
 <?php
-namespace Uniondrug\HyperfPlus;
+namespace Uniondrug\HyperfTools;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Di\Annotation\Inject;
 use Hyperf\Di\Container;
