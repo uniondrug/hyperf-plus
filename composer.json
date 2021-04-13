@@ -11,7 +11,7 @@
   ],
   "autoload" : {
     "psr-4" : {
-      "Uniondrug\\HyperfTools\\" : "src/"
+      "Uniondrug\\HyperfPlus\\" : "src/"
     }
   }
 }

@@ -1,9 +1,6 @@
 <?php
-
 declare(strict_types=1);
-
-namespace Uniondrug\HyperfTools;
-
+namespace Uniondrug\HyperfPlus;
 use Hyperf\Command\Command as HyperfCommand;
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Contract\ConfigInterface;
